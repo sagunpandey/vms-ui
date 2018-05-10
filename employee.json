@@ -1,0 +1,142 @@
+[
+	{
+		"name": "Sagun Pandey",
+		"id": 1,
+		"position": "C.E.O",
+		"department": "Executive",
+		"status": true
+	},
+	{
+		"name": "Ruraj Joshi",
+		"id": 2,
+		"position": "C.O.O",
+		"department": "Marketing",
+		"status": false
+	},
+	{
+		"name": "Shashesh Silwal",
+		"id": 3,
+		"position": "Director",
+		"department": "Executive",
+		"status": true
+	},
+	{
+		"name": "Shambhu Siwakoti",
+		"id": 4,
+		"position": "Marketing Executive",
+		"department": "Marketing",
+		"status": false
+	},
+	{
+		"name": "Subigya Jyoti Panta",
+		"id": 5,
+		"position": "Accountant",
+		"department": "Account",
+		"status": true
+	},
+	{
+		"name": "Sandeep Rajbhandari",
+		"id": 6,
+		"position": "Java Programmer",
+		"department": "Software",
+		"status": true
+	},
+	{
+		"name": "Sameep Chudal",
+		"id": 7,
+		"position": "Web Developer",
+		"department": "Software",
+		"status": true
+	},
+	{
+		"name": "Sushan Poudel",
+		"id": 8,
+		"position": "Firmware Programmer",
+		"department": "Hardware",
+		"status": true
+	},
+	{
+		"name": "Sujan Koirala",
+		"id": 9,
+		"position": "Circuit Designer",
+		"department": "Hardware",
+		"status": true
+	},
+	{
+		"name": "Santosh Pandey",
+		"id": 10,
+		"position": "Security Head",
+		"department": "Security",
+		"status": true
+	},
+	{
+		"name": "Suvash Sharma",
+		"id": 11,
+		"position": "Software Analyst",
+		"department": "Software",
+		"status": true
+	},
+	{
+		"name": "Shristi Tuladhar",
+		"id": 12,
+		"position": "Canteen Chief",
+		"department": "Canteen",
+		"status": false
+	},
+	{
+		"name": "Saurab Dhoubadel",
+		"id": 13,
+		"position": "Store Keeper",
+		"department": "Store",
+		"status": true
+	},
+	{
+		"name": "Bikrant Poudel",
+		"id": 14,
+		"position": "Resource Manager",
+		"department": "Resource",
+		"status": false
+	},
+	{
+		"name": "Sanjeev Singh",
+		"id": 15,
+		"position": "Gatekeeper",
+		"department": "Security",
+		"status": true
+	},
+	{
+		"name": "Santosh Lamichhane",
+		"id": 16,
+		"position": "Intern",
+		"department": "Software",
+		"status": true
+	},
+	{
+		"name": "Parash Shakya",
+		"id": 17,
+		"position": "Intern",
+		"department": "Hardware",
+		"status": true
+	},
+	{
+		"name": "Sagar Magar",
+		"id": 18,
+		"position": "Intern",
+		"department": "Marketing",
+		"status": false
+	},
+	{
+		"name": "Sovika Poudel",
+		"id": 19,
+		"position": "Head Accountant",
+		"department": "Account",
+		"status": true
+	},
+	{
+		"name": "Ram Chandra Poudel",
+		"id": 20,
+		"position": "Senior Software Engineer",
+		"department": "Software",
+		"status": false
+	}
+]

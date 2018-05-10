@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vms.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sessvars.js"></script>
+    <script src="js/zebra_cookie.js"></script>
+    <script src="js/bootbox.min.js"></script>
+    <script src="js/vms.visitor-form.js"></script>
+</head>
+
+<body>
+    <div class="container main-container">
+
+        <div class="col-md-5 col-md-offset-2" id="visitor">
+            <form class="form-horizontal" id="visitor-form">
+                <fieldset>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input id="visitor_name" placeholder="" class="form-control" type="text">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Contact Number</label>
+                        <input id="visitor_contact" placeholder="" class="form-control" type="text">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input id="visitor_address" placeholder="" class="input-xlarge form-control" type="text">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Purpose for Visit</label>
+                        <textarea id="purpose_detail" class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span> Check-in</a>
+                        <a class="btn btn-danger" id="cancelFormButton" onclick="cancelForm()"><span class="glyphicon glyphicon-remove"></span> Cancel</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="col-md-3" id="selected-employee-panel">
+            <!--<div class="col-md-1"></div>-->
+            <div class="col-md-11 well" id="selected-employee">
+                <label>Host Details</label>
+                <div class="thumbnail">
+                    <img id="selected-employee-image" alt="Avatar">
+                </div>
+                <div class="caption">
+                    <p><h4 id="selected-employee-name"></h4></p>
+                    <p><h5 id="selected-employee-position"></h5></p>
+                </div>
+                <a href="javascript:changeEmployee()" class="btn btn-default btn-block">Change</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
